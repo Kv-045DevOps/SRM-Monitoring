@@ -1,4 +1,4 @@
-extraScrapeConfigs:
+extraScrapeConfigs: -|
   - job_name: 'istio-mesh'
     kubernetes_sd_configs:
     - role: endpoints
